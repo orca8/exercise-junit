@@ -2,7 +2,7 @@
 # http://lint.travis-ci.org/
 
 language: java
-before_script:
+before_install:
   - chmod +x gradlew
 # command to be execute
 # case single line
