@@ -1,3 +1,12 @@
+# Uses travis-yaml to check your .travis.yml config.
+# http://lint.travis-ci.org/
+
 language: java
+before_install:
+  - chmod +x gradlew
+# command to be execute
+# case single line
+# script: [command]
+# case multi-line
 script:
   - ./gradlew check
