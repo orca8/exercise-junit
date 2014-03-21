@@ -3,7 +3,7 @@
 
 language: java
 before_script:
-  - chmod +x ./gradlew
+  - chmod +x gradlew
 # command to be execute
 # case single line
 # script: [command]
