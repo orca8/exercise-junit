@@ -1,11 +1,10 @@
 # Uses travis-yaml to check your .travis.yml config.
 # http://lint.travis-ci.org/
 
-# 言語
 language: java
-# 実行するコマンド
-# 1行の場合は次の書き方が可能
-# script: [コマンド]
-# 複数行の場合はインデントして - [コマンド]
+# command to be execute
+# case single line
+# script: [command]
+# case multi-line
 script:
   - ./gradlew check
