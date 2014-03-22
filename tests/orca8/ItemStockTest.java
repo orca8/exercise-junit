@@ -13,7 +13,9 @@ import static org.junit.Assert.*;
  */
 @RunWith(Enclosed.class)
 public class ItemStockTest {
+
     public static class 初期状態の場合 {
+
         ItemStock sut;
         Item book;
 
