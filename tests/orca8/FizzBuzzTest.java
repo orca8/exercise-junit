@@ -16,5 +16,10 @@ public class FizzBuzzTest {
     public void createFizzBuzzListで16まで取得できる() throws Exception {
         List<String> actual = FizzBuzz.createFizzBuzzList(16);
         assertThat(actual.size(), is(16));
+        assertThat(actual.get(0), is("1"));
+        assertThat(actual.get(2), is("Fizz"));
+        assertThat(actual.get(5), is("Fizz"));
+        assertThat(actual.get(8), is("Fizz"));
+        assertThat(actual.get(11), is("Fizz"));
     }
 }
