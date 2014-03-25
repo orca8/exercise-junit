@@ -23,5 +23,6 @@ public class FizzBuzzTest {
         assertThat(actual.get(8), is("Fizz"));
         assertThat(actual.get(9), is("Buzz"));
         assertThat(actual.get(11), is("Fizz"));
+        assertThat(actual.get(14), is("FizzBuzz"));
     }
 }
