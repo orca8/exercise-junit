@@ -18,8 +18,10 @@ public class FizzBuzzTest {
         assertThat(actual.size(), is(16));
         assertThat(actual.get(0), is("1"));
         assertThat(actual.get(2), is("Fizz"));
+        assertThat(actual.get(4), is("Buzz"));
         assertThat(actual.get(5), is("Fizz"));
         assertThat(actual.get(8), is("Fizz"));
+        assertThat(actual.get(9), is("Buzz"));
         assertThat(actual.get(11), is("Fizz"));
     }
 }
